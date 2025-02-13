@@ -36,7 +36,7 @@
 
 # Introduction
 
-This repository is a comprehensive collection of resources for **Image Inversion**, covering techniques from **GANs** to **diffusion models**, and emerging frameworks like **DiT** and **rectified flow**. It categorizes methods, highlights advancements, and supports mainstream applications such as object editing, attribute editing, style transfer, image restoration, and personalized generation. And it alse organized resources on Generative Model Inversion applied to **other domains**. If you find any work missing or have any suggestions, feel free to contact us via [email](yinanchencs@outlook.com)
+This repository is a comprehensive collection of resources for **Image Inversion**, covering techniques from **GANs** to **diffusion models**, and emerging frameworks like **DiT** and **rectified flow**. It categorizes methods, highlights advancements, and supports mainstream applications such as object editing, attribute editing, style transfer, image restoration, and personalized generation. And it alse organized resources on Generative Model Inversion applied to **other domains**. If you find any work missing or have any suggestions, feel free to [pull requests]([RyanChenYN/ImageInversion](https://github.com/RyanChenYN/ImageInversion/pulls))
 
 ## Survey pipeline
 
