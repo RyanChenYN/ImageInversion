@@ -1,5 +1,6 @@
-
-<p style="font-family: 'Times New Roman', Times, serif; font-size: 28px; font-weight: bold; text-align: center; margin: 20px 0;">Image Inversion: A Survey from GANs to Diffusion and Beyond</p>
+<p align="center">
+  <h1 align="center">Image Inversion: A Survey from GANs to Diffusion and Beyond</h1>
+  <p align="center">
 
 <p align="center">
     <a href="https://scholar.google.com.hk/citations?user=-WKfgd0AAAAJ&hl=zh-CN"><strong>Yinan Chen <sup>1</sup></strong></a>
@@ -12,7 +13,7 @@
     .
     <a href="https://scholar.google.cz/citations?user=Jm5qsAYAAAAJ&hl=zh-CN&authuser=1"><strong>Teng Hu <sup>4</sup></strong></a>
     .
-    <a href="https://scholar.google.com/citations?hl=zh-CN&user=m3KDreEAAAAJ"><strong>Zhucun Xue <sup>1</sup></strong></a>
+    <br><a href="https://scholar.google.com/citations?hl=zh-CN&user=m3KDreEAAAAJ"><strong>Zhucun Xue <sup>1</sup></strong></a>
     .
     <a href="https://yiranran.github.io/"><strong>Ran Yi <sup>4</sup></strong></a>
     .
@@ -20,6 +21,7 @@
     .
     <a href="https://tyshiwo.github.io/"><strong>Ying Tai <sup>5</sup></strong></a>
 </p>
+
 
 
 <p align="center">
@@ -34,7 +36,7 @@
 
 # Introduction
 
-This repository is a comprehensive collection of resources for **Image Inversion**, covering techniques from GANs to diffusion models, and emerging frameworks like DiT and rectified flow. It categorizes methods, highlights advancements, and supports mainstream applications such as object editing, attribute manipulation, style transfer, image restoration, and personalized generation. And it alse organized resources on Generative Model Inversion applied to other domains. If you find any work missing or have any suggestions, feel free to contact us via [email](yinanchencs@outlook.com)
+This repository is a comprehensive collection of resources for **Image Inversion**, covering techniques from **GANs** to **diffusion models**, and emerging frameworks like **DiT** and **rectified flow**. It categorizes methods, highlights advancements, and supports mainstream applications such as object editing, attribute editing, style transfer, image restoration, and personalized generation. And it alse organized resources on Generative Model Inversion applied to **other domains**. If you find any work missing or have any suggestions, feel free to contact us via [email](yinanchencs@outlook.com)
 
 ## Survey pipeline
 
@@ -44,13 +46,18 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 - [Introduction](#introduction)
 - [Summary of Contents](#summary-of-contents)
-- [Image Inversion Methods](#Image-Inversion Methods)
+- [Image Inversion Methods](#Image-Inversion-Methods)
   - [Diffusion Model](#Diffusion-Model)
     - [Training-free](#Training-free)
     - [Fine-tune](#Fine-tune)
     - [Extra Trainable Module](#Extra-Trainable-Module)
   - [GANs](#GANs)
+    - [Encoder-based](#Encoder-based) 
+    - [Latent Optimization](#Latent-Optimization)
+    - [Hybrid](#Hybrid)
   - [Promising Technologies](#Promising-Technologies)
+    - [DiT](#DiT)
+    - [Rectified Flow](Rectified-Flow)
 - [Related Research Domains](#Related-Research-Domains)
   - [Video](#Video)
   - [3D](#3D)
@@ -162,7 +169,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 ## GANs
 
-### Hybrid Table
+### Hybrid
 
 | Year | Venue | Task              | Paper Title                                                  | Code                                                         |
 | ---- | ----- | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -171,7 +178,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 24   | CVPR  | Attribute Editing | [The Devil is in the Details: StyleFeatureEditor for Detail-Rich StyleGAN Inversion and High Quality Image Editing](https://arxiv.org/abs/2406.10601) | [Code](https://github.com/AIRI-Institute/StyleFeatureEditor) |
 | 16   | ECCV  | Attribute Editing | [Generative Visual Manipulation on the Natural Image Manifold](https://arxiv.org/abs/1609.03552) | [Code](https://github.com/junyanz/iGAN)                      |
 
-### Latent Optimization Table
+### Latent Optimization
 
 | Year | Venue | Task              | Paper Title                                                  | Code                                                   |
 | ---- | ----- | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
@@ -181,7 +188,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 16   | NIPS  | Image Generation  | [Inverting the generator of a generative adversarial network](https://arxiv.org/abs/1611.05644) | [Code](https://github.com/ToniCreswell/InvertingGAN)   |
 
 
-### Encoder-based Table
+### Encoder-based
 
 | Year | Venue    | Task              | Paper Title                                                  | Code                                               |
 | ---- | -------- | ----------------- | ------------------------------------------------------------ | -------------------------------------------------- |
@@ -193,14 +200,14 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 ## Promising Technologies
 
-## DiT
+### DiT
 
 | Year | Venue | Task                       | Paper Title                                                  | Code                                                 |
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
 | 24   | Arxiv | Object & Attribute Editing | [Stable Flow: Vital Layers for Training-Free Image Editing](https://arxiv.org/abs/2411.14430) | [Code](https://github.com/snap-research/stable-flow) |
 | 24   | Arxix | Object & Attribute Editing | [DiT4Edit: Diffusion Transformer for Image Editing](https://arxiv.org/abs/2411.03286) | [Code](https://github.com/fkyyyy/DiT4Edit)           |
 
-## Rectified Flow
+### Rectified Flow
 
 | Year | Venue | Task                       | Paper Title                                                  | Code                                                         |
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
