@@ -1,6 +1,8 @@
 <p align="center">
-  <h1 align="center">Image Inversion: A Survey from GANs to Diffusion and Beyond</h1>
-  <p align="center">
+<img width="765" alt="image" src="Assets/title.png">
+     </a>
+   <p align="center">
+
 
 <p align="center">
     <a href="https://scholar.google.com.hk/citations?user=-WKfgd0AAAAJ&hl=zh-CN"><strong>Yinan Chen <sup>1</sup></strong></a>
