@@ -40,7 +40,7 @@
 
 # Introduction
 
-This repository is a comprehensive collection of resources for **Image Inversion**, If you find any work missing or have any suggestions, feel free to [pull requests]([Pull requests · RyanChenYN/ImageInversion](https://github.com/RyanChenYN/ImageInversion/pulls)) or [contact us](#Contact). We will promptly add the missing papers to this repository.
+This repository is a comprehensive collection of resources for **Image Inversion**, If you find any work missing or have any suggestions, feel free to [pull requests](https://github.com/RyanChenYN/ImageInversion/pulls) or [contact us](#Contact). We will promptly add the missing papers to this repository.
 
 ## ✨Highlight!!!
 
