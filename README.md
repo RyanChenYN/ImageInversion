@@ -1,13 +1,13 @@
 <p align="center">
+    <a href="https://arxiv.org/abs/2502.11974">
 <img width="765" alt="image" src="Assets/title.png">
      </a>
    <p align="center">
 
-
 <p align="center">
-    <a href="https://scholar.google.com.hk/citations?user=-WKfgd0AAAAJ&hl=zh-CN"><strong>Yinan Chen <sup>1</sup></strong></a>
+    <a href="https://scholar.google.com.hk/citations?user=-WKfgd0AAAAJ&hl=zh-CN"><strong>Yinan Chen <sup>1★</sup></strong></a>
     .
-    <a href="https://zhangzjn.github.io/"><strong>Jiangning Zhang <sup>1,2</sup></strong></a>
+    <a href="https://zhangzjn.github.io/"><strong>Jiangning Zhang <sup>1,2★</sup></strong></a>
     .
     <a href="https://scholar.google.com/citations?user=8V6O60gAAAAJ&hl=en"><strong>Yali Bi <sup>3</sup></strong></a>
     .
@@ -19,11 +19,10 @@
     .
     <a href="https://yiranran.github.io/"><strong>Ran Yi <sup>4</sup></strong></a>
     .
-    <a href="https://scholar.google.com/citations?user=qYcgBbEAAAAJ"><strong>Yong Liu <sup>1</sup></strong></a>
+    <a href="https://scholar.google.com/citations?user=qYcgBbEAAAAJ"><strong>Yong Liu <sup>1†</sup></strong></a>
     .
     <a href="https://tyshiwo.github.io/"><strong>Ying Tai <sup>5</sup></strong></a>
 </p>
-
 
 
 <p align="center">
@@ -34,13 +33,24 @@
     <strong><sup>4</sup>Department of Computer Science & Engineering, Shanghai Jiao Tong University</strong> &nbsp;&nbsp;&nbsp;
     <strong><sup>5</sup>School of Intelligence Science and Technology, Nanjing University</strong>
 </p>
-
+<p align="center">
+    <a href='https://arxiv.org/abs/2502.11974'>
+      <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
+         </a>
 
 # Introduction
 
-This repository is a comprehensive collection of resources for **Image Inversion**, covering techniques from **GANs** to **diffusion models**, and emerging frameworks like **DiT** and **rectified flow**. It categorizes methods, highlights advancements, and supports mainstream applications such as object editing, attribute editing, style transfer, image restoration, and personalized generation. And it alse organized resources on Generative Model Inversion applied to **other domains**. If you find any work missing or have any suggestions, feel free to pull requests.
+This repository is a comprehensive collection of resources for **Image Inversion**, If you find any work missing or have any suggestions, feel free to [pull requests]([Pull requests · RyanChenYN/ImageInversion](https://github.com/RyanChenYN/ImageInversion/pulls)) or [contact us](#Contact). We will promptly add the missing papers to this repository.
 
-## Survey pipeline
+## ✨Highlight!!!
+
+**1. Comprehensive Coverage of Image Inversion Techniques:** Includes methods ranging from **GANs** and **diffusion models** to emerging frameworks like **DiT** and **rectified flow**.
+
+**2. Mainstream Applications:** Supports applications such as **object editing**, **attribute editing**, **style transfer**, **image restoration**, and **personalized generation**.
+
+**3. Other Domain Generative Model Inversion:** Extends to **other domains**, showcasing the versatility of generative model inversion techniques.
+
+## ✨Survey pipeline
 
 <img src="Assets/survey_pipeline.png" width.="1000px">
 
@@ -64,6 +74,12 @@ This repository is a comprehensive collection of resources for **Image Inversion
   - [Video](#Video)
   - [3D](#3D)
   - [Audio](#Audio)
+
+- [Cite The Survey](#Cite-The-Survey)
+- [Contact](#Contact)
+
+
+
 # Image Inversion Methods
 
 ## Diffusion Model
@@ -263,3 +279,28 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 2024 | Arxiv  | DM       | Audio Editing     | [MEDIC: Zero-shot Music Editing with Disentangled Inversion Control](https://arxiv.org/abs/2407.13220) | [Code](无)                                             |
 | 2024 | Arxiv  | DM       | Audio Editing     | [AudioEditor: A Training-Free Diffusion-Based Audio Editing Framework](https://arxiv.org/abs/2409.12466) | [Code](https://github.com/NKU-HLT/AudioEditor)         |
 | 2023 | ICASSP | DM       | Audio Restoration | [Solving Audio Inverse Problems with a Diffusion Model](https://arxiv.org/abs/2210.15228) | [Code](https://github.com/eloimoliner/CQTdiff)         |
+
+# Cite The Survey
+
+If you find our survey and repository useful for your research project, please consider citing our paper:
+
+```
+@article{chen2025imageinversion,
+      title={Image Inversion: A Survey from GANs to Diffusion and Beyond}, 
+      author={Yinan Chen and Jiangning Zhang and Yali Bi and Xiaobin Hu and Teng Hu and Zhucun Xue and Ran Yi and Yong Liu and Ying Tai},
+      year={2025},
+      journal={CoRR},
+      url={https://arxiv.org/abs/2502.11974}, 
+}
+```
+
+# Contact
+
+```
+yinanchencs@outlook.com
+```
+
+```
+186368@zju.edu.cn
+```
+
