@@ -187,33 +187,51 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 ## GANs
 
-### Hybrid
+### Hybrid Table
 
-| Year | Venue | Task              | Paper Title                                                  | Code                                                         |
-| ---- | ----- | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2024 | AAAI  | Attribute Editing | [Spatial-Contextual Discrepancy Information Compensation for GAN Inversion](https://arxiv.org/abs/2312.07079) | [Code](https://arxiv.org/abs/2312.07079)                     |
-| 2024 | IJCV  | Attribute Editing | [One-Shot Neural Face Reenactment via Finding Directions in GAN’s Latent Space](https://export.arxiv.org/abs/2402.03553) | -                                                            |
-| 2024 | CVPR  | Attribute Editing | [The Devil is in the Details: StyleFeatureEditor for Detail-Rich StyleGAN Inversion and High Quality Image Editing](https://arxiv.org/abs/2406.10601) | [Code](https://github.com/AIRI-Institute/StyleFeatureEditor) |
-| 2016 | ECCV  | Attribute Editing | [Generative Visual Manipulation on the Natural Image Manifold](https://arxiv.org/abs/1609.03552) | [Code](https://github.com/junyanz/iGAN)                      |
+| Year | Venue | Task                       | Paper Title                                                  | Code                                                         |
+| ---- | ----- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 24   | AAAI  | Attribute Editing          | [Spatial-Contextual Discrepancy Information Compensation for GAN Inversion](https://arxiv.org/abs/2312.07079) | [Code](https://arxiv.org/abs/2312.07079)                     |
+| 24   | IJCV  | Image Fusion               | [One-Shot Neural Face Reenactment via Finding Directions in GAN’s Latent Space](https://export.arxiv.org/abs/2402.03553) | -                                                            |
+| 24   | CVPR  | Attribute Editing          | [The Devil is in the Details: StyleFeatureEditor for Detail-Rich StyleGAN Inversion and High Quality Image Editing](https://arxiv.org/abs/2406.10601) | [Code](https://github.com/AIRI-Institute/StyleFeatureEditor) |
+| 23   | WACV  | Attribute Editing          | [DyStyle: Dynamic Neural Network for Multi-Attribute-Conditioned Style Editing.](https://arxiv.org/abs/2109.10737) | -                                                            |
+| 23   | AAAI  | Attribute Editing          | [ReGANIE: Rectifying GAN Inversion Errors for Accurate Real Image Editing](https://arxiv.org/abs/2301.13402) | -                                                            |
+| 22   | ECCV  | Style Transfer             | [JoJoGAN: One Shot Face Stylization](https://arxiv.org/abs/2112.11641) | [Code](https://github.com/mchong6/JoJoGAN)                   |
+| 22   | CVPR  | Attribute Editing          | [Spatially-Adaptive Multilayer Selection for GAN Inversion and Editing](https://arxiv.org/abs/2206.08357) | [Code](https://github.com/adobe-research/sam_inversion)      |
+| 22   | ECCV  | Attribute Editing          | [Editing Out-of-Domain GAN Inversion via Differential Activations](https://arxiv.org/abs/2207.08134) | -                                                            |
+| 22   | NIPS  | Object & Attribute Editing | [Generalized One-shot Domain Adaptation of Generative Adversarial Networks](https://arxiv.org/abs/2209.03665) | [Code](https://github.com/zhangzc21/Generalized-One-shot-GAN-adaptation) |
+| 16   | ECCV  | Attribute Editing          | [Generative Visual Manipulation on the Natural Image Manifold](https://arxiv.org/abs/1609.03552) | [Code](https://github.com/junyanz/iGAN)                      |
 
-### Latent Optimization
+### Latent Optimization Table
 
-| Year | Venue | Task              | Paper Title                                                  | Code                                                   |
-| ---- | ----- | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
-| 2024 | AAAI  | Attribute Editing | [HyperEditor: Achieving Both Authenticity and Cross-Domain Capability in Image Editing via Hypernetworks](https://arxiv.org/abs/2312.13537) | [Code](https://github.com/Rainbow0204/HyperEditor)     |
-| 2022 | TOG   | Attribute Editing | [Pivotal Tuning for Latent-based Editing of Real Images](https://arxiv.org/abs/2106.05744) | [Code](https://github.com/danielroich/PTI)             |
-| 2019 | ICCV  | Attribute Editing | [Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/abs/1904.03189) | [Code](https://github.com/zaidbhat1234/Image2StyleGAN) |
-| 2016 | NIPS  | Image Generation  | [Inverting the generator of a generative adversarial network](https://arxiv.org/abs/1611.05644) | [Code](https://github.com/ToniCreswell/InvertingGAN)   |
+| Year | Venue | Task                       | Paper Title                                                  | Code                                                   |
+| ---- | ----- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
+| 24   | AAAI  | Object & Attribute Editing | [HyperEditor: Achieving Both Authenticity and Cross-Domain Capability in Image Editing via Hypernetworks](https://arxiv.org/abs/2312.13537) | [Code](https://github.com/Rainbow0204/HyperEditor)     |
+| 23   | CVPR  | Attribute Editing          | [Balancing Reconstruction and Editing Quality of GAN Inversion for Real Image Editing with StyleGAN Prior Latent Space](https://arxiv.org/abs/2306.00241) | -                                                      |
+| 22   | TOG   | Attribute Editing          | [Pivotal Tuning for Latent-based Editing of Real Images](https://arxiv.org/abs/2106.05744) | [Code](https://github.com/danielroich/PTI)             |
+| 22   | ECCV  | Attribute Editing          | [Chunkmogrify: Real image inversion via Segments](https://arxiv.org/abs/2110.06269) | [Code](https://github.com/futscdav/Chunkmogrify)       |
+| 22   | CVPR  | Attribute Editing          | [Overparameterization Improves StyleGAN Inversion](https://arxiv.org/abs/2205.06304) | -                                                      |
+| 19   | ICCV  | Attribute Editing          | [Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?](https://arxiv.org/abs/1904.03189) | [Code](https://github.com/zaidbhat1234/Image2StyleGAN) |
+| 16   | NIPS  | Image Generation           | [Inverting the generator of a generative adversarial network](https://arxiv.org/abs/1611.05644) | [Code](https://github.com/ToniCreswell/InvertingGAN)   |
 
+### Encoder-based Table
 
-### Encoder-based
-
-| Year | Venue    | Task              | Paper Title                                                  | Code                                               |
-| ---- | -------- | ----------------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| 2024 | AAAI | Attribute Editing | [Gradual Residuals Alignment: A Dual-Stream Framework for GAN Inversion and Image Attribute Editing](https://arxiv.org/abs/2402.14398) | - |
-| 2023 | ICCV | Attribute Editing | [Diverse Inpainting and Editing with GAN Inversion](https://arxiv.org/abs/2307.15033) | - |
-| 2021 | SIGGRAPH | Attribute Editing | [Designing an Encoder for StyleGAN Image Manipulation](https://arxiv.org/abs/2102.02766) | [Code](https://github.com/omertov/encoder4editing) |
-| 2016 | Arxiv    | Attribute Editing | [Invertible conditional GANs for image editing](https://arxiv.org/abs/1611.06355) | [Code](https://github.com/Guim3/IcGAN)             |
+| Year | Venue    | Task                       | Paper Title                                                  | Code                                                         |
+| ---- | -------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 24   | AAAI     | Attribute Editing          | [Gradual Residuals Alignment: A Dual-Stream Framework for GAN Inversion and Image Attribute Editing](https://arxiv.org/abs/2402.14398) | -                                                            |
+| 23   | CVPR     | Image Fusion               | [Fine-Grained Face Swapping via Regional GAN Inversion](https://arxiv.org/abs/2211.14068) | [Code](https://github.com/e4s2022/e4s)                       |
+| 23   | CVPR     | Attribute Editing          | [Delving StyleGAN Inversion for Image Editing: A Foundation Latent Space Viewpoint](https://arxiv.org/abs/2211.11448) | [Code](https://github.com/KumapowerLIU/CLCAE)                |
+| 23   | CVPR     | Attribute Editing          | [StyleRes: Transforming the Residuals for Real Image Editing with StyleGAN](https://arxiv.org/abs/2212.14359) | [Code](https://github.com/hamzapehlivan/StyleRes)            |
+| 23   | ICCV     | Attribute Editing          | [Diverse Inpainting and Editing with GAN Inversion](https://arxiv.org/abs/2307.15033) | -                                                   |
+| 23   | TOG      | Object & Attribute Editing | [CLIP-Guided StyleGAN Inversion for Text-Driven Real Image Editing](https://arxiv.org/abs/2307.08397) | [Code](https://github.com/johnberg1/CLIPInverter)            |
+| 22   | CVPR     | Attribute Editing          | [HyperInverter: Improving StyleGAN Inversion via Hypernetwork](https://arxiv.org/abs/2112.00719) | [Code](https://github.com/VinAIResearch/HyperInverter)       |
+| 22   | CVPR     | Attribute Editing          | [Style Transformer for Image Inversion and Editing](https://arxiv.org/abs/2203.07932) | [Code](https://github.com/sapphire497/style-transformer)     |
+| 22   | ECCV     | Attribute Editing          | [High-fidelity GAN Inversion with Padding Space](https://arxiv.org/abs/2203.11105) | [Code](https://github.com/EzioBy/padinv)                     |
+| 22   | ACM MM   | Attribute Editing          | [Everything is There in Latent Space: Attribute Editing and Attribute Style Manipulation by StyleGAN Latent Space Exploration](https://arxiv.org/abs/2207.09855) | -                                                   |
+| 22   | NIPS     | Image Restoration          | [Semantic uncertainty intervals for disentangled latent spaces](https://arxiv.org/abs/2207.10074) | [Code](https://github.com/swamiviv/generative_semantic_uncertainty) |
+| 22   | ECCV     | Attribute Editing          | [IntereStyle: Encoding an Interest Region for Robust StyleGAN Inversion](https://arxiv.org/abs/2209.10811) | -                                                            |
+| 21   | SIGGRAPH | Attribute Editing          | [Designing an Encoder for StyleGAN Image Manipulation](https://arxiv.org/abs/2102.02766) | [Code](https://github.com/omertov/encoder4editing)           |
+| 16   | Arxiv    | Attribute Editing          | [Invertible conditional GANs for image editing](https://arxiv.org/abs/1611.06355) | [Code](https://github.com/Guim3/IcGAN)                       |
 
 
 ## Promising Technologies
@@ -275,8 +293,8 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | ---- | ------ | -------- | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
 | 2024 | IJCAI  | DM       | Audio Editing     | [MusicMagus: Zero-Shot Text-to-Music Editing via Diffusion Models](https://arxiv.org/abs/2402.06178) | [Code](https://github.com/ldzhangyx/MusicMagus)        |
 | 2024 | ICML   | DM       | Audio Editing     | [Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion](https://arxiv.org/abs/2402.10009) | [Code](https://github.com/HilaManor/AudioEditingCode/) |
-| 2024 | ICML   | DM       | Audio Editing     | [Prompt-guided Precise Audio Editing with Diffusion Models](https://arxiv.org/abs/2406.04350) | [Code](无)                                             |
-| 2024 | Arxiv  | DM       | Audio Editing     | [MEDIC: Zero-shot Music Editing with Disentangled Inversion Control](https://arxiv.org/abs/2407.13220) | [Code](无)                                             |
+| 2024 | ICML   | DM       | Audio Editing     | [Prompt-guided Precise Audio Editing with Diffusion Models](https://arxiv.org/abs/2406.04350) | -                                             |
+| 2024 | Arxiv  | DM       | Audio Editing     | [MEDIC: Zero-shot Music Editing with Disentangled Inversion Control](https://arxiv.org/abs/2407.13220) | -                                             |
 | 2024 | Arxiv  | DM       | Audio Editing     | [AudioEditor: A Training-Free Diffusion-Based Audio Editing Framework](https://arxiv.org/abs/2409.12466) | [Code](https://github.com/NKU-HLT/AudioEditor)         |
 | 2023 | ICASSP | DM       | Audio Restoration | [Solving Audio Inverse Problems with a Diffusion Model](https://arxiv.org/abs/2210.15228) | [Code](https://github.com/eloimoliner/CQTdiff)         |
 
