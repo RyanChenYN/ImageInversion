@@ -40,7 +40,7 @@
 
 # Introduction
 
-This repository is a comprehensive collection of resources for **Image Inversion**, If you find any work missing or have any suggestions, feel free to [pull requests](https://github.com/RyanChenYN/ImageInversion/pulls) or [contact us](#Contact). We will promptly add the missing papers to this repository.
+This repository is a comprehensive collection of resources for **Image Inversion**, If you find any work missing or have any suggestions, feel free to [pull requests](https://github.com/RyanChenYN/ImageInversion/pulls) or [contact us](#Contact). We will promptly add the missing papers to this repository. 
 
 ## ✨Highlight!!!
 
@@ -116,7 +116,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 2024 | ACM MM   | Personalized Generation       | [Pick-and-Draw: Training-free Semantic Guidance for Text-to-Image Personalization](https://arxiv.org/abs/2401.16762) | -                                                            |
 | 2024 | CVPR     | Personalized Generation       | [DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization](https://arxiv.org/abs/2402.09812) | [Code](https://github.com/cvlab-kaist/DreamMatcher)          |
 | 2023 | ICLR     | Object & Attribute Editing    | [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | [Code](https://github.com/google/prompt-to-prompt/)          |
-| 2023 | ICLR     | Object & Attribute Editing    | [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427) | -                                                            |
+| 2023 | ICLR     | Object & Attribute Editing    | [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427) | -                                                           |
 | 2023 | CVPR     | Object & Attribute Editing    | [Null-text Inversion for Editing Real Images using Guided Diffusion Models](https://arxiv.org/abs/2211.09794) | [Code](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images) |
 | 2023 | CVPR     | Object & Attribute Editing    | [EDICT: Exact Diffusion Inversion via Coupled Transformations](https://arxiv.org/abs/2211.12446) | [Code](https://github.com/salesforce/EDICT)                  |
 | 2023 | CVPR     | Object & Attribute Editing    | [Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation](https://arxiv.org/abs/2211.12572) | [Code](https://github.com/MichalGeyer/plug-and-play)         |
@@ -240,7 +240,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue | Task                       | Paper Title                                                  | Code                                                 |
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
-| 2024 | Arxiv | Object & Attribute Editing | [Stable Flow: Vital Layers for Training-Free Image Editing](https://arxiv.org/abs/2411.14430) | [Code](https://github.com/snap-research/stable-flow) |
+| 2025 | CVPR  | Object & Attribute Editing | [Stable Flow: Vital Layers for Training-Free Image Editing](https://arxiv.org/abs/2411.14430) | [Code](https://github.com/snap-research/stable-flow) |
 | 2024 | Arxix | Object & Attribute Editing | [DiT4Edit: Diffusion Transformer for Image Editing](https://arxiv.org/abs/2411.03286) | [Code](https://github.com/fkyyyy/DiT4Edit)           |
 
 ### Rectified Flow
