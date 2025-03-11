@@ -168,8 +168,8 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue         | Task                       | Paper Title                                                  | Code                                                         |
 | ---- | ------------- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | CVPR          | Image Restoration          | [Arbitrary-steps Image Super-resolution via Diffusion Inversion](https://arxiv.org/abs/2412.09013) | [Code](https://github.com/zsyOAOA/InvSR)                     |
 | 2025 | CVM           | Object & Attribute Editing | [StyleDiffusion: Prompt-Embedding Inversion for Text-Based Editing](https://arxiv.org/abs/2303.15649) | [Code](https://github.com/sen-mao/StyleDiffusion)            |
-| 2025 | AAAI          | Image Restoration          | [Arbitrary-steps Image Super-resolution via Diffusion Inversion](https://arxiv.org/abs/2412.09013) | [Code](https://github.com/zsyOAOA/InvSR)                     |
 | 2024 | CVPR          | Object & Attribute Editing | [ZONE: Zero-Shot Instruction-Guided Local Editing](https://arxiv.org/abs/2312.16794) | [Code](https://github.com/lsl001006/ZONE)                    |
 | 2024 | CVPR          | Object & Attribute Editing | [Doubly Abductive Counterfactual Inference for Text-based Image Editing](https://arxiv.org/abs/2403.02981) | [Code](https://github.com/xuesong39/DAC)                     |
 | 2024 | ECCV          | Object & Attribute Editing | [TurboEdit: Instant text-based image editing](https://arxiv.org/abs/2408.08332) | -                                                            |
