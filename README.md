@@ -241,6 +241,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | Year | Venue | Task                       | Paper Title                                                  | Code                                                 |
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
 | 2025 | CVPR  | Object & Attribute Editing | [Stable Flow: Vital Layers for Training-Free Image Editing](https://arxiv.org/abs/2411.14430) | [Code](https://github.com/snap-research/stable-flow) |
+| 2025 | Arxiv  | Object Editing | [KV-Edit: Training-Free Image Editing for Precise Background Preservation](https://arxiv.org/abs/2502.17363) | [Code](https://github.com/Xilluill/KV-Edit) |
 | 2024 | Arxix | Object & Attribute Editing | [DiT4Edit: Diffusion Transformer for Image Editing](https://arxiv.org/abs/2411.03286) | [Code](https://github.com/fkyyyy/DiT4Edit)           |
 
 ### Rectified Flow
