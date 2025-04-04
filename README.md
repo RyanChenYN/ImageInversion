@@ -301,7 +301,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 # Cite The Survey
 
-If you find our survey and repository useful for your research project, please consider citing our paper:
+If you find our survey and repository useful for your research projects, please consider citing our paper:
 
 ```
 @article{chen2025imageinversion,
