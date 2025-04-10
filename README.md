@@ -258,6 +258,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue | Category | Task          | Paper                                                        | Code                                                         |
 | ---- | ----- | -------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | ICLR  | DM      | Video Editing | [VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing](https://arxiv.org/abs/2502.17258) | [Code](https://github.com/knightyxp/VideoGrain)                  |
 | 2024 | CVPR  | GAN      | Video Editing | [In-N-Out: Faithful 3D GAN Inversion with Volumetric Decomposition for Face Editing](https://arxiv.org/abs/2302.04871) | [Code](https://github.com/Twizwei/in-n-out)                  |
 | 2024 | CVPR  | DM       | Video Editing | [ Video-P2P: Video Editing with Cross-attention Control](https://arxiv.org/abs/2303.04761) | [Code](https://github.com/dvlab-research/Video-P2P)          |
 | 2024 | CVPR  | DM       | Video Editing | [Space-Time Diffusion Features for Zero-Shot Text-Driven Motion Transfer](https://arxiv.org/abs/2311.17009) | [Code](https://github.com/diffusion-motion-transfer/diffusion-motion-transfer) |
