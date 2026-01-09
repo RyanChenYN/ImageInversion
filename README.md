@@ -35,8 +35,9 @@
 </p>
 <p align="center">
     <a href='https://arxiv.org/abs/2502.11974'>
-      <img src='https://img.shields.io/badge/arXiv-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'>
+      <img src='https://img.shields.io/badge/arXiv-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='arXiv PDF'>
          </a>
+
 
 # Introduction
 
@@ -88,6 +89,8 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue    | Task                          | Paper Title                                                  | Code                                                         |
 | ---- | -------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | ICLR     | Image Restoration             | [HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models](https://arxiv.org/abs/2312.14091) | [Code](https://github.com/Picsart-AI-Research/HD-Painter)    |
+| 2025 | ICLR     | Object & Attribute Editing    | [GNRI: Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models](https://arxiv.org/abs/2312.12540v5) | [Code](https://github.com/dvirsamuel/NewtonRaphsonInversion) |
 | 2025 | AAAI     | Spatial-Aware Editing         | [DesignEdit: Multi-Layered Latent Decomposition and Fusion for Unified & Accurate Image Editing](https://arxiv.org/abs/2403.14487) | [Code](https://github.com/design-edit/DesignEdit)            |
 | 2024 | CVPR     | Object & Attribute Editing    | [An Edit Friendly DDPM Noise Space: Inversion and Manipulations](https://arxiv.org/abs/2304.06140) | [Code](https://github.com/inbarhub/DDPM_inversion)           |
 | 2024 | NN       | Object & Attribute Editing    | [PFB-Diff: Progressive Feature Blending Diffusion for Text-driven Image Editing](https://arxiv.org/abs/2306.16894) | [Code](https://github.com/CMACH508/PFB-Diff)                 |
@@ -116,7 +119,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 2024 | ACM MM   | Personalized Generation       | [Pick-and-Draw: Training-free Semantic Guidance for Text-to-Image Personalization](https://arxiv.org/abs/2401.16762) | -                                                            |
 | 2024 | CVPR     | Personalized Generation       | [DreamMatcher: Appearance Matching Self-Attention for Semantically-Consistent Text-to-Image Personalization](https://arxiv.org/abs/2402.09812) | [Code](https://github.com/cvlab-kaist/DreamMatcher)          |
 | 2023 | ICLR     | Object & Attribute Editing    | [Prompt-to-Prompt Image Editing with Cross Attention Control](https://arxiv.org/abs/2208.01626) | [Code](https://github.com/google/prompt-to-prompt/)          |
-| 2023 | ICLR     | Object & Attribute Editing    | [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427) | -                                                           |
+| 2023 | ICLR     | Object & Attribute Editing    | [DiffEdit: Diffusion-based semantic image editing with mask guidance](https://arxiv.org/abs/2210.11427) | -                                                            |
 | 2023 | CVPR     | Object & Attribute Editing    | [Null-text Inversion for Editing Real Images using Guided Diffusion Models](https://arxiv.org/abs/2211.09794) | [Code](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images) |
 | 2023 | CVPR     | Object & Attribute Editing    | [EDICT: Exact Diffusion Inversion via Coupled Transformations](https://arxiv.org/abs/2211.12446) | [Code](https://github.com/salesforce/EDICT)                  |
 | 2023 | CVPR     | Object & Attribute Editing    | [Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation](https://arxiv.org/abs/2211.12572) | [Code](https://github.com/MichalGeyer/plug-and-play)         |
@@ -126,7 +129,6 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 2023 | Arxiv    | Object & Attribute Editing    | [LEDITS: Real Image Editing with DDPM Inversion and Semantic Guidance](https://arxiv.org/abs/2307.00522) | [Code](https://github.com/camenduru/ledits-hf)               |
 | 2023 | ICCV     | Object & Attribute Editing    | [Effective Real Image Editing with Accelerated Iterative Diffusion Inversion](https://arxiv.org/abs/2309.04907) | -                                                            |
 | 2023 | NIPS     | Object & Attribute Editing    | [Dynamic Prompt Learning: Addressing Cross-Attention Leakage for Text-Based Image Editing](https://arxiv.org/abs/2309.15664) | [Code](https://github.com/wangkai930418/DPL)                 |
-| 2023 | Arxiv    | Object & Attribute Editing    | [Fixed-point Inversion for Text-to-image diffusion models](https://arxiv.org/abs/2312.12540v1) | [Code](https://github.com/dvirsamuel/FPI)                    |
 | 2023 | ICCV     | Attribute Editing             | [Localizing Object-level Shape Variations with Text-to-Image Diffusion Models](https://arxiv.org/abs/2303.11306) | [Code](https://github.com/orpatashnik/local-prompt-mixing)   |
 | 2023 | ICCV     | Attribute Editing             | [MasaCtrl: Tuning-Free Mutual Self-Attention Control for Consistent Image Synthesis and Editing](https://arxiv.org/abs/2304.08465) | [Code](https://github.com/TencentARC/MasaCtrl)               |
 | 2023 | PRCV     | Attribute Editing             | [KV Inversion: KV Embeddings Learning for Text-Conditioned Real Image Action Editing](https://arxiv.org/abs/2309.16608) | -                                                            |
@@ -134,7 +136,6 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | 2023 | TOG      | Image Restoration             | [Blended Latent Diffusion](https://arxiv.org/abs/2206.02779) | [Code](https://github.com/omriav/blended-latent-diffusion)   |
 | 2023 | Arxiv    | Image Restoration             | [Differential Diffusion: Giving Each Pixel Its Strength](https://arxiv.org/abs/2306.00950) | [Code](https://github.com/exx8/differential-diffusion)       |
 | 2023 | ICCV     | Object & Attribute Editing    | [TF-ICON: Diffusion-Based Training-Free Cross-Domain Image Composition](https://arxiv.org/abs/2307.12493) | [Code](https://github.com/Shilin-LU/TF-ICON)                 |
-| 2023 | Arxiv    | Image Restoration             | [HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models](https://arxiv.org/abs/2312.14091) | [Code](https://github.com/Picsart-AI-Research/HD-Painter)    |
 | 2023 | NIPS     | Spatial-Aware Editing         | [Diffusion Self-Guidance for Controllable Image Generation](https://arxiv.org/abs/2306.00986) | -                                                            |
 | 2023 | ICCV     | Object & Attribute Editing    | [Unifying Diffusion Models' Latent Space, with Applications to CycleDiffusion and Guidance](https://arxiv.org/abs/2210.05559) | [Code](https://github.com/ChenWu98/cycle-diffusion)          |
 | 2023 | ICLR     | Personalized Generation       | [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618) | [Code](https://github.com/rinongal/textual_inversion)        |
@@ -250,7 +251,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2025 | ICLR  | Object & Attribute Editing | [Semantic Image Inversion and Editing using<br/>Stochastic Rectified Differential Equations](https://arxiv.org/abs/2410.10792) | [Code](https://github.com/LituRout/RF-Inversion)             |
 | 2025 | ICLR  | Object & Attribute Editing | [Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models](https://arxiv.org/abs/2312.12540) | [Code](https://github.com/dvirsamuel/NewtonRaphsonInversion) |
-| 2024 | Arxiv | Object & Attribute Editing | [Taming Rectified Flow for Inversion and Editing](https://arxiv.org/abs/2411.04746) | [Code](https://github.com/wangjiangshan0725/RF-Solver-Edit)  |
+| 2025 | ICML  | Object & Attribute Editing | [Taming Rectified Flow for Inversion and Editing](https://arxiv.org/abs/2411.04746) | [Code](https://github.com/wangjiangshan0725/RF-Solver-Edit)  |
 
 # Related Research Domains
 
