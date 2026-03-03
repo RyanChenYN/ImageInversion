@@ -89,13 +89,21 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue    | Task                          | Paper Title                                                  | Code                                                         |
 | ---- | -------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | NIPS  | Object & Attribute Editing                                | [FreeInv: Free Lunch for Improving DDIM Inversion](https://arxiv.org/abs/2503.23035) | [code](https://github.com/yuxiangbao/FreeInv)                |
+| 2025 | ICCV  | Object & Attribute Editing                               | [EEdit: Rethinking the Spatial and Temporal Redundancy for Efficient Image Editing](https://arxiv.org/html/2503.10270v1) | [code](https://github.com/yuriYanZeXuan/EEdit)               |
+| 2025 | CVPR  | Style Transfer                                   | [StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer](https://arxiv.org/abs/2501.11319) | [code](https://github.com/bytedance/StyleSSP)                |
+| 2025 | ICLR  | Object & Attribute Editing                             | [Semantic Image Inversion and Editing using Rectified Stochastic Differential Equations](https://arxiv.org/html/2410.10792v1) | [code](https://github.com/LituRout/RF-Inversion)             |
 | 2025 | ICLR     | Image Restoration             | [HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models](https://arxiv.org/abs/2312.14091) | [Code](https://github.com/Picsart-AI-Research/HD-Painter)    |
 | 2025 | ICLR     | Object & Attribute Editing    | [GNRI: Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models](https://arxiv.org/abs/2312.12540v5) | [Code](https://github.com/dvirsamuel/NewtonRaphsonInversion) |
+| 2025 | ICML  | Object & Attribute Editing                             | [EasyInv: Toward Fast and Better DDIM Inversion](https://arxiv.org/abs/2408.05159) | [code](https://github.com/potato-kitty/EasyInv)              |
+| 2025 | ICML  | Object & Attribute Editing                               | [FireFlow: Fast Inversion of Rectified Flow for Image Semantic Editing](https://arxiv.org/abs/2412.07517) | [code]
 | 2025 | AAAI     | Spatial-Aware Editing         | [DesignEdit: Multi-Layered Latent Decomposition and Fusion for Unified & Accurate Image Editing](https://arxiv.org/abs/2403.14487) | [Code](https://github.com/design-edit/DesignEdit)            |
 | 2024 | CVPR     | Object & Attribute Editing    | [An Edit Friendly DDPM Noise Space: Inversion and Manipulations](https://arxiv.org/abs/2304.06140) | [Code](https://github.com/inbarhub/DDPM_inversion)           |
 | 2024 | NN       | Object & Attribute Editing    | [PFB-Diff: Progressive Feature Blending Diffusion for Text-driven Image Editing](https://arxiv.org/abs/2306.16894) | [Code](https://github.com/CMACH508/PFB-Diff)                 |
 | 2024 | NIPS     | Object & Attribute Editing    | [Energy-Based Cross Attention for Bayesian Context Update in Text-to-Image Diffusion Models](https://arxiv.org/abs/2306.09869) | [Code](https://github.com/EnergyAttention/Energy-Based-CrossAttention) |
 | 2024 | WACV     | Object & Attribute Editing    | [ProxEdit: Improving Tuning-Free Real Image Editing with Proximal Guidance](https://arxiv.org/pdf/2306.05414) | [Code](https://github.com/phymhan/prompt-to-prompt)          |
+| 2024 | ECCV  | Object & Attribute Editing                         | [Source Prompt Disentangled Inversion for Boosting Image Editability with Diffusion Models](https://arxiv.org/abs/2403.11105) | [code](https://github.com/leeruibin/SPDInv)                  |
+| 2024 | ECCV  | Object & Attribute Editing                                 | [ReNoise: Real Image Inversion Through Iterative Noising](https://arxiv.org/abs/2403.14602) | -                                                            |
 | 2024 | ECCV     | Object & Attribute Editing    | [Exact Diffusion Inversion via Bi-directional Integration Approximation](https://arxiv.org/abs/2307.10829) | [Code](https://github.com/guoqiang-zhang-x/BDIA)             |
 | 2024 | ICLR     | Object & Attribute Editing    | [Magicremover: Tuning-free Text-guided Image inpainting with Diffusion Models](https://arxiv.org/abs/2310.02848) | -                                                            |
 | 2024 | ICLR     | Object & Attribute Editing    | [PnP Inversion: Boosting Diffusion-based Editing with 3 Lines of Code](https://arxiv.org/abs/2310.01506) | [Code](https://github.com/cure-lab/PnPInversion)             |
@@ -242,13 +250,14 @@ This repository is a comprehensive collection of resources for **Image Inversion
 | Year | Venue | Task                       | Paper Title                                                  | Code                                                 |
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ---------------------------------------------------- |
 | 2025 | CVPR  | Object & Attribute Editing | [Stable Flow: Vital Layers for Training-Free Image Editing](https://arxiv.org/abs/2411.14430) | [Code](https://github.com/snap-research/stable-flow) |
-| 2025 | Arxiv  | Object Editing | [KV-Edit: Training-Free Image Editing for Precise Background Preservation](https://arxiv.org/abs/2502.17363) | [Code](https://github.com/Xilluill/KV-Edit) |
-| 2024 | Arxix | Object & Attribute Editing | [DiT4Edit: Diffusion Transformer for Image Editing](https://arxiv.org/abs/2411.03286) | [Code](https://github.com/fkyyyy/DiT4Edit)           |
+| 2024 | AAAI | Object & Attribute Editing | [DiT4Edit: Diffusion Transformer for Image Editing](https://arxiv.org/abs/2411.03286) | [Code](https://github.com/fkyyyy/DiT4Edit)           |
 
 ### Rectified Flow
 
 | Year | Venue | Task                       | Paper Title                                                  | Code                                                         |
 | ---- | ----- | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | NIPS  | Object & Attribute Editing                                 | [DNAEdit: Direct Noise Alignment for Text-Guided Rectified Flow Editing](https://arxiv.org/abs/2506.01430) | [code](https://github.com/xiechenxi99/DNAEdit_code)          |
+| 2025 | ICCV | Object Editing | [KV-Edit: Training-Free Image Editing for Precise Background Preservation](https://arxiv.org/abs/2502.17363) | [Code](https://github.com/Xilluill/KV-Edit) |
 | 2025 | ICLR  | Object & Attribute Editing | [Semantic Image Inversion and Editing using<br/>Stochastic Rectified Differential Equations](https://arxiv.org/abs/2410.10792) | [Code](https://github.com/LituRout/RF-Inversion)             |
 | 2025 | ICLR  | Object & Attribute Editing | [Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models](https://arxiv.org/abs/2312.12540) | [Code](https://github.com/dvirsamuel/NewtonRaphsonInversion) |
 | 2025 | ICML  | Object & Attribute Editing | [Taming Rectified Flow for Inversion and Editing](https://arxiv.org/abs/2411.04746) | [Code](https://github.com/wangjiangshan0725/RF-Solver-Edit)  |
@@ -259,7 +268,10 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue | Category | Task          | Paper                                                        | Code                                                         |
 | ---- | ----- | -------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | CVPR  | DM | Video Editing                         | [VideoDirector: Precise Video Editing via Text-to-Video Models](https://arxiv.org/abs/2411.17592) | [code](https://github.com/Yukun66/Video_Director)            |
+| 2025 | NIPS  | DM | Dynamic View Synthesis                     | [Dynamic View Synthesis as an Inverse Problem](https://arxiv.org/abs/2506.08004) | -                                                            |
 | 2025 | ICLR  | DM      | Video Editing | [VideoGrain: Modulating Space-Time Attention for Multi-Grained Video Editing](https://arxiv.org/abs/2502.17258) | [Code](https://github.com/knightyxp/VideoGrain)                  |
+| 2025 | ICML  | DM | Video & Image Editing              | [Editable Noise Map Inversion: Encoding Target-image into Noise For High-Fidelity Image Manipulation](https://arxiv.org/abs/2509.25776) | -                                                            |
 | 2024 | CVPR  | GAN      | Video Editing | [In-N-Out: Faithful 3D GAN Inversion with Volumetric Decomposition for Face Editing](https://arxiv.org/abs/2302.04871) | [Code](https://github.com/Twizwei/in-n-out)                  |
 | 2024 | CVPR  | DM       | Video Editing | [ Video-P2P: Video Editing with Cross-attention Control](https://arxiv.org/abs/2303.04761) | [Code](https://github.com/dvlab-research/Video-P2P)          |
 | 2024 | CVPR  | DM       | Video Editing | [Space-Time Diffusion Features for Zero-Shot Text-Driven Motion Transfer](https://arxiv.org/abs/2311.17009) | [Code](https://github.com/diffusion-motion-transfer/diffusion-motion-transfer) |
@@ -281,6 +293,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue | Category | Task                   | Paper                                                        | Code                                                      |
 | ---- | ----- | -------- | ---------------------- | ------------------------------------------------------------ | --------------------------------------------------------- |
+| 2025 | CVPR  | RF | 3D Object Editing | [SplatFlow: Multi-View Rectified Flow Model for 3D Gaussian Splatting Synthesis](https://arxiv.org/abs/2411.16443) | [code](https://github.com/gohyojun15/SplatFlow)              |
 | 2024 | CVPR  | GAN      | 3D Face Reconstruction | [In-N-Out: Faithful 3D GAN Inversion with Volumetric Decomposition for Face Editing](https://arxiv.org/abs/2302.04871) | [Code](https://github.com/Twizwei/in-n-out)               |
 | 2024 | CVPR  | GAN      | 3D Face Reconstruction | [Diffusion-driven GAN Inversion for Multi-Modal Face Image Generation](https://arxiv.org/abs/2405.04356) | -                                                         |
 | 2024 | CVPR  | DM       | 3D Object Editing      | [SHAP-EDITOR: Instruction-Guided Latent 3D Editing in Seconds](https://arxiv.org/abs/2312.09246) | [Code](https://github.com/silent-chen/Shap-Editor)        |
