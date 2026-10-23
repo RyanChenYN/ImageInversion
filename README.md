@@ -89,6 +89,7 @@ This repository is a comprehensive collection of resources for **Image Inversion
 
 | Year | Venue    | Task                          | Paper Title                                                  | Code                                                         |
 | ---- | -------- | ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025 | SIGGRAPH | Object & Attribute Editing | [Cora: Correspondence-aware Image Editing Using Few-Step Diffusion](https://arxiv.org/abs/2505.23907) | [code](https://github.com/alimohammadiamirhossein/cora) |
 | 2025 | NIPS  | Object & Attribute Editing                                | [FreeInv: Free Lunch for Improving DDIM Inversion](https://arxiv.org/abs/2503.23035) | [code](https://github.com/yuxiangbao/FreeInv)                |
 | 2025 | ICCV  | Object & Attribute Editing                               | [EEdit: Rethinking the Spatial and Temporal Redundancy for Efficient Image Editing](https://arxiv.org/html/2503.10270v1) | [code](https://github.com/yuriYanZeXuan/EEdit)               |
 | 2025 | CVPR  | Style Transfer                                   | [StyleSSP: Sampling StartPoint Enhancement for Training-free Diffusion-based Method for Style Transfer](https://arxiv.org/abs/2501.11319) | [code](https://github.com/bytedance/StyleSSP)                |
